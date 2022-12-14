@@ -24,7 +24,7 @@ optionPrice(50, 45, 0.3, 0.05, 4, 4, "Call", "E", "Y")
 In addition the program can save a plot of the binomial tree. Like illustraded below. The graph is saved to the current folder. Make sure that you set the obtion Plot = "Y" like -> optionPrice(x, x, x, x, x, x, x, x, "Y")
 
 
-![Binomial Tree](/binomial/BinomialTree.png?raw=true "Binomial Tree")
+![Binomial Tree](BinomialTree.png?raw=true "Binomial Tree")
 
 ## Development considerations
 I thought about letting the program call the user for input but thought it would be annoying in the long run to have to answer each of the scripts input queries. Instead the user manually chooses the parameters in the main function. But future improvement could definitely be implementing validation of user inputs.
